@@ -19,3 +19,4 @@ export class LeaderService {
   getFeaturedLeader(): Leader {
     return LEADERS.filter((leader) => leader.featured)[0];
 }
+	}
